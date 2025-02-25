@@ -1,0 +1,95 @@
+/*title*/
+h1 {
+    color: #2f2fbd;
+    text-align: left;
+    margin-left: .6rem;
+}
+
+/*display style*/
+#timer {
+    color: black;
+    font-size: x-large;
+    margin-left: .2rem;
+    padding: 5px;
+    border: 1pt solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+}
+
+/*button style*/
+button {
+    color: black;
+    font-size: large;
+    margin-left: .2rem;
+    padding: .4rem;
+    border: none;
+    border-radius: .3rem;
+    width: 60px;
+    height: 34px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#start {
+    background-color: lightgreen;
+    color: black;
+    font-size: large;
+    margin-left: .2rem;
+    border: none;
+    border-radius: .3rem;
+    text-align: center;
+}
+#start:hover {
+    background-color: forestgreen;
+}
+#stop {
+    background-color: lightcoral;
+    color: black;
+    font-size: large;
+    border: none;
+    border-radius: .3rem;
+    text-align: center;
+}
+#stop:hover {
+    background-color: red;
+}
+#reset {
+    background-color: lightskyblue;
+    color: black;
+    font-size: large;
+    border: none;
+    border-radius: .3rem;
+    text-align: center;
+}
+#reset:hover {
+    background-color: blue;
+}
+#lap {
+    background-color: #ffc107;
+    color: black;
+    font-size: large;
+    border: none;
+    border-radius: .3rem;
+    text-align: center;
+}
+#lap:hover {
+    background-color: darkgoldenrod;
+}
+
+/*list styles*/
+ul#laps {
+    list-style-type: disc;
+    color: black;
+    font-size: 14pt;
+    margin-left: 5%;
+    border: none;
+    width: auto;
+    height: auto;
+    text-align: left;
+    overflow-y: auto;
+}
+ul#laps li {
+    color: black;
+    padding: 5px;
+}
